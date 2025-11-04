@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom'
 const Dashboard = () => {
   const {id}= useParams();
     return (
-    <div>Dashbord content displaying:{id}</div>
+     <div><h1>Dashbord content displaying:{id}</h1></div>
   )
 }
 
