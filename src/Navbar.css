@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  background-color: #03948d;   /* dark background */
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;           /* side by side */
+  justify-content: flex-end; /* push to right */
+  gap: 20px;               /* spacing between items */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-list li {
+  color: rgb(1, 52, 68);
+  cursor: pointer;
+}
+
+.nav-list li:hover {
+  text-decoration: underline;
+}
