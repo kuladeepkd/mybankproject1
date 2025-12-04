@@ -7,11 +7,19 @@ import { BrowserRouter,Route, Routes } from 'react-router-dom';
 import Home from './Home';
 import Dashboard from './Dashboard';
 import About from './About';
+import'./store'
+import { Account } from './Account';
+import { Forms } from './Forms';
+
 
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      
+      <Forms/>
+      <Account/>
+     
+      {/* <BrowserRouter>
        <Navbar/>
        <Routes>
         <Route path='/home'  element={<Home/>}></Route>
@@ -19,7 +27,7 @@ function App() {
         <Route path='/about'  element={<About/>}></Route>
         <Route path='/registration' element={<Registration/>}></Route>
        </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
      
   {/* <Regisration/> */}
 {/* <Fetch/> */}
